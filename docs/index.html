@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>معمل الديب — التطبيقات</title>
+<style>
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  body{ font-family:'Segoe UI', Tahoma, Arial, sans-serif; background:#f4f6f1; color:#1c2a1e; min-height:100vh; display:flex; flex-direction:column; }
+  header{ background:linear-gradient(150deg,#14532d,#1d6a3c); color:#fff; text-align:center; padding:44px 18px 34px; }
+  header .egg{ font-size:52px; }
+  header h1{ font-size:30px; margin-top:8px; }
+  header p{ opacity:.9; margin-top:6px; font-size:15px; }
+  main{ flex:1; width:100%; max-width:880px; margin:0 auto; padding:28px 16px; display:grid; gap:18px; }
+  @media (min-width:760px){ main{ grid-template-columns:1fr 1fr; } }
+  a.card{ background:#fff; border-radius:20px; padding:28px 22px; text-decoration:none; color:inherit; box-shadow:0 4px 18px rgba(20,60,30,.10); border:2px solid transparent; transition:.15s; display:block; }
+  a.card:hover{ border-color:#f5b921; transform:translateY(-2px); }
+  .card .icon{ font-size:46px; }
+  .card h2{ font-size:21px; margin:12px 0 6px; }
+  .card p{ color:#5c6b5e; font-size:14.5px; line-height:1.7; }
+  .card .go{ display:inline-block; margin-top:14px; background:#f5b921; color:#3a2b00; font-weight:800; padding:9px 18px; border-radius:11px; font-size:14.5px; }
+  footer{ text-align:center; padding:20px; color:#7a877c; font-size:13.5px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="egg">🐣</div>
+  <h1>معمل الديب</h1>
+  <p>للتفريخ وتوزيع الكتاكيت — العباسي الجديد، أمام مدرسة صفية زغلول</p>
+</header>
+<main>
+  <a class="card" href="manager/">
+    <div class="icon">📋</div>
+    <h2>مدير معمل الديب</h2>
+    <p>إدارة الدفعات والعملاء والحسابات على السحابة — دخول بحساب الأدمن أو الموظف، ومتابعة من أي مكان.</p>
+    <span class="go">فتح المدير ←</span>
+  </a>
+  <a class="card" href="calculator/">
+    <div class="icon">🥚</div>
+    <h2>حاسبة التفريخ</h2>
+    <p>احسب مواعيد الفرز والنقل والفقس ودرجات الحرارة والرطوبة لكل أنواع الطيور من تاريخ دخول البيض.</p>
+    <span class="go">فتح الحاسبة ←</span>
+  </a>
+</main>
+<footer>Created by Eng/ MOSTAFA ELDEEP</footer>
+</body>
+</html>
