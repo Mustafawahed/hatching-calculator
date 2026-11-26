@@ -388,7 +388,7 @@
     <h1><span data-i18n="titleA">حاسبة</span> <span class="pill" data-i18n="titleB">التفريخ</span></h1>
     <p data-i18n="heroSub">اختار الطائر وتاريخ دخول البيض، وهنظبط لك الفرز والنقل والفقس — باليوم والتاريخ والحرارة والرطوبة.</p>
     <div class="hero-stats" aria-hidden="true">
-      <div class="hero-stat"><b>6 <em data-i18n="statTypesUnit">أنواع</em></b><span data-i18n="statTypesSub">دجاج • بط • سمان…</span></div>
+      <div class="hero-stat"><b>6 <em data-i18n="statTypesUnit">أنواع</em></b><span data-i18n="statTypesSub">دجاج • وز • سمان…</span></div>
       <div class="hero-stat"><b>10 <em data-i18n="statCandleUnit">أيام</em></b><span data-i18n="statCandleSub">موعد الفرز بالكشاف</span></div>
       <div class="hero-stat"><b>3 <em data-i18n="statTransferUnit">أيام</em></b><span data-i18n="statTransferSub">النقل قبل الفقس</span></div>
     </div>
@@ -565,7 +565,7 @@
   var CANDLE_DAYS = 10; // الفرز بعد 10 أيام لكل الأنواع / Candling after 10 days for all types
 
   // ===== App version & update check — when you publish a new build, edit these two lines =====
-  var APP_VERSION_CODE = 6; // This build's version number (must match the app's versionCode)
+  var APP_VERSION_CODE = 8; // This build's version number (must match the app's versionCode)
   var UPDATE_INFO_URL = "https://raw.githubusercontent.com/Mustafawahed/hatching-calculator/main/version.json"; // The file the app reads to learn the latest version
 
   var I18N = {
@@ -576,7 +576,7 @@
       titleB: 'التفريخ',
       heroSub: 'اختار الطائر وتاريخ دخول البيض، وهنظبط لك الفرز والنقل والفقس — باليوم والتاريخ والحرارة والرطوبة.',
       statTypesUnit: 'أنواع',
-      statTypesSub: 'دجاج • بط • سمان…',
+      statTypesSub: 'دجاج • وز • سمان…',
       statCandleUnit: 'أيام',
       statCandleSub: 'موعد الفرز بالكشاف',
       statTransferUnit: 'أيام',
@@ -627,7 +627,7 @@
       titleB: 'Calculator',
       heroSub: 'Pick a bird and the date the eggs went in, and we will set your candling, transfer and hatching dates — with the day, date, temperature and humidity.',
       statTypesUnit: 'types',
-      statTypesSub: 'Chicken • Duck • Quail…',
+      statTypesSub: 'Chicken • Goose • Quail…',
       statCandleUnit: 'days',
       statCandleSub: 'Candling check day',
       statTransferUnit: 'days',
@@ -676,7 +676,7 @@
   var BIRDS = [
     { id:'chicken',  emoji:'🐓', name_ar:'دجاج',      name_en:'Chicken',      days:21, temp:'38 - 37.8', hum:'60 - 70' },
     { id:'turkey',   emoji:'🦃', name_ar:'رومي',      name_en:'Turkey',       days:28, temp:'38 - 37.5', hum:'66 - 70' },
-    { id:'duck',     emoji:'🦆', name_ar:'بط',        name_en:'Duck',         days:28, temp:'38 - 37.5', hum:'66 - 70' },
+    { id:'duck',     emoji:'🪿', name_ar:'وز',        name_en:'Goose',        days:28, temp:'38 - 37.5', hum:'66 - 70' },
     { id:'muscovy',  emoji:'🦆', name_ar:'بط مسكوفي', name_en:'Muscovy Duck', days:35, temp:'37.8 - 37.5', hum:'70 - 75' },
     { id:'pigeon',   emoji:'🕊️', name_ar:'حمام',      name_en:'Pigeon',       days:17, temp:'38 - 37.5', hum:'60 - 65' },
     { id:'quail',    emoji:'🐦', name_ar:'سمان',      name_en:'Quail',        days:18, temp:'38 - 37.8', hum:'60 - 65' }
